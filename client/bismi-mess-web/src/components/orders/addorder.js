@@ -39,7 +39,7 @@ function UserDetailsPage() {
   };
 
   return (
-    <div className="container mx-auto py-6 px-4 lg:w-1/3">
+    <div className="overflow-x-hidden overflow-y-auto bg-gray-100 pl-10 pr-10 container mx-auto py-6 px-4 lg:w-1/3 h-full">
       <h1 className="text-2xl font-semibold text-gray-800 mb-6">User Details</h1>
 
       <form onSubmit={handleSubmit} className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">

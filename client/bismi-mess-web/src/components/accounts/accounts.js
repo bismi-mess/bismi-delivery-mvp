@@ -30,11 +30,11 @@ function Dashboard() {
   }, []);
 
   return (
-    <div className="container mx-auto py-6 px-4">
+    <div className="overflow-x-hidden overflow-y-auto bg-gray-100 pl-10 pr-10 container mx-auto py-6 px-4">
       <h1 className="text-2xl font-semibold text-gray-800 mb-6">Dashboard</h1>
 
       {loading ? (
-        <div className="text-center">Loading...</div>
+        <div className="overflow-x-hidden overflow-y-auto text-center h-full">Loading...</div>
       ) : (
         <>
           <div className="bg-white shadow-md rounded-lg p-6 mb-6">

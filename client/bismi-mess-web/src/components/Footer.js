@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (  
-    <footer className="fixed bottom-0 left-0 right-0 bg-white shadow flex justify-around items-center p-4">
+    <footer className="relative bottom-0 left-0 right-0 bg-white shadow flex justify-around items-center p-4">
     
       <Link to="/home" className="text-gray-600 hover:text-gray-800">
       <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

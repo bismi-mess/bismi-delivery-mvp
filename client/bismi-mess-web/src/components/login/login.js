@@ -22,7 +22,7 @@ function LoginPage({ onLogin }) {
   };
 
   return (
-    <div className="container mx-auto py-6 px-4 lg:w-1/3">
+    <div className="overflow-x-hidden overflow-y-auto bg-gray-100 pl-10 pr-10 container mx-auto py-6 px-4 lg:w-1/3 h-full">
       <h1 className="text-2xl font-semibold text-gray-800 mb-6">Login</h1>
 
       {error && <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4" role="alert">

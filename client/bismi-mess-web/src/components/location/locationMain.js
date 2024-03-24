@@ -39,7 +39,7 @@ function LocationPage() {
 
 
   return (
-    <div className="container mx-auto py-6 px-4">
+    <div className="overflow-x-hidden overflow-y-auto bg-gray-100 pl-10 pr-10 container mx-auto py-6 px-4">
       <h1 className="text-2xl font-semibold text-gray-800 mb-6">Delivery Live</h1>
 
       <div className="flex flex-col items-center">
